@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+.heading{
+    font-size: 50px;
+    text-shadow: 6px 6px 10px rgb(25, 15, 15);
+    margin-bottom: 90px;
+}
+
+.btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stopwatch {
+    /* background-color: aqua; */
+    /* height: 700px; */
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.time {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 100px;
+    text-shadow: 6px 6px 10px rgb(25, 15, 15);
+
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#startStop {
+    background-color: green;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+}
+
+#reset {
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    background-color: red;
+}
