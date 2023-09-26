@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: darkkhaki;
+    background-image: url(blueBack.avif);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .heading{
@@ -24,6 +26,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 6px 6px 6px rgb(32, 31, 31);
+    width: 370px;
 }
 
 .time {
